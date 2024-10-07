@@ -1,0 +1,27 @@
+Running Pattern 1...
+Process 1 beginning (PID: 76475)
+Process 1 exiting
+Process 2 beginning (PID: 76476)
+Process 2 exiting
+Process 3 beginning (PID: 76477)
+Process 3 exiting
+Process 4 beginning (PID: 76478)
+Process 4 exiting
+Process 5 beginning (PID: 76479)
+Process 5 exiting
+Process 6 beginning (PID: 76480)
+Process 6 exiting
+
+Running Pattern 2...
+Process 1 (76501) creating Process 2
+Process 2 (76502) creating Process 3
+Process 3 (76503) creating Process 4
+Process 4 (76504) creating Process 5
+Process 5 (76505) creating Process 6
+Process 6 (76506) exiting
+Process 6 (76505) exiting
+Process 5 (76504) exiting
+Process 4 (76503) exiting
+Process 3 (76502) exiting
+Process 2 (76501) exiting
+Process 1 (76500) exiting
