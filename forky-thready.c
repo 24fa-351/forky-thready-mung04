@@ -29,17 +29,17 @@ void pattern_2(int num_of_processes, int count) {
     if (num_of_processes == 1) {
         wait(NULL);
         sleep(1);
-        printf("Process %d (%d) exiting\n", count, getpid());
+        printf("Process %d (PID: %d) exiting\n", count, getpid());
         return;
     }
 
     if (pid > 0) {
         wait(NULL);
         sleep(1);
-        printf("Process %d (%d) exiting\n", count, getpid());
+        printf("Process %d (PID: %d) exiting\n", count, getpid());
     }
     else if (pid == 0) {
-        printf("Process %d (%d) creating Process %d\n", count, getpid(), count + 1);
+        printf("Process %d (PID: %d, PPID: %d) creating Process %d\n", count, getpid(), getppid(), count + 1);
         pattern_2(num_of_processes - 1, count + 1);
         exit(EXIT_SUCCESS);
     }
