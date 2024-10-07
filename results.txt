@@ -1,0 +1,95 @@
+-- Pattern 1: Run 1 --
+Running Pattern 1...
+Process 1 beginning (PID: 77519)
+Process 1 exiting
+Process 2 beginning (PID: 77520)
+Process 2 exiting
+Process 3 beginning (PID: 77521)
+Process 3 exiting
+Process 4 beginning (PID: 77522)
+Process 4 exiting
+Process 5 beginning (PID: 77523)
+Process 5 exiting
+Process 6 beginning (PID: 77524)
+Process 6 exiting
+
+-- Pattern 1: Run 2 --
+Running Pattern 1...
+Process 1 beginning (PID: 77554)
+Process 1 exiting
+Process 2 beginning (PID: 77555)
+Process 2 exiting
+Process 3 beginning (PID: 77556)
+Process 3 exiting
+Process 4 beginning (PID: 77557)
+Process 4 exiting
+Process 5 beginning (PID: 77558)
+Process 5 exiting
+Process 6 beginning (PID: 77559)
+Process 6 exiting
+Process 7 beginning (PID: 77560)
+Process 7 exiting
+Process 8 beginning (PID: 77561)
+Process 8 exiting
+Process 9 beginning (PID: 77562)
+Process 9 exiting
+Process 10 beginning (PID: 77563)
+Process 10 exiting
+Process 11 beginning (PID: 77564)
+Process 11 exiting
+Process 12 beginning (PID: 77566)
+Process 12 exiting
+Process 13 beginning (PID: 77567)
+Process 13 exiting
+Process 14 beginning (PID: 77568)
+Process 14 exiting
+Process 15 beginning (PID: 77569)
+Process 15 exiting
+
+-- Pattern 2: Run 1 --
+Running Pattern 2...
+Process 1 (PID: 77573, PPID: 77572) creating Process 2
+Process 2 (PID: 77574, PPID: 77573) creating Process 3
+Process 3 (PID: 77575, PPID: 77574) creating Process 4
+Process 4 (PID: 77576, PPID: 77575) creating Process 5
+Process 5 (PID: 77577, PPID: 77576) creating Process 6
+Process 6 (PID: 77578) exiting
+Process 6 (PID: 77577) exiting
+Process 5 (PID: 77576) exiting
+Process 4 (PID: 77575) exiting
+Process 3 (PID: 77574) exiting
+Process 2 (PID: 77573) exiting
+Process 1 (PID: 77572) exiting
+
+-- Pattern 2: Run 2 --
+Running Pattern 2...
+Process 1 (PID: 77591, PPID: 77590) creating Process 2
+Process 2 (PID: 77592, PPID: 77591) creating Process 3
+Process 3 (PID: 77593, PPID: 77592) creating Process 4
+Process 4 (PID: 77594, PPID: 77593) creating Process 5
+Process 5 (PID: 77595, PPID: 77594) creating Process 6
+Process 6 (PID: 77596, PPID: 77595) creating Process 7
+Process 7 (PID: 77597, PPID: 77596) creating Process 8
+Process 8 (PID: 77598, PPID: 77597) creating Process 9
+Process 9 (PID: 77599, PPID: 77598) creating Process 10
+Process 10 (PID: 77600, PPID: 77599) creating Process 11
+Process 11 (PID: 77601, PPID: 77600) creating Process 12
+Process 12 (PID: 77602, PPID: 77601) creating Process 13
+Process 13 (PID: 77603, PPID: 77602) creating Process 14
+Process 14 (PID: 77604, PPID: 77603) creating Process 15
+Process 15 (PID: 77605) exiting
+Process 15 (PID: 77604) exiting
+Process 14 (PID: 77603) exiting
+Process 13 (PID: 77602) exiting
+Process 12 (PID: 77601) exiting
+Process 11 (PID: 77600) exiting
+Process 10 (PID: 77599) exiting
+Process 9 (PID: 77598) exiting
+Process 8 (PID: 77597) exiting
+Process 7 (PID: 77596) exiting
+Process 6 (PID: 77595) exiting
+Process 5 (PID: 77594) exiting
+Process 4 (PID: 77593) exiting
+Process 3 (PID: 77592) exiting
+Process 2 (PID: 77591) exiting
+Process 1 (PID: 77590) exiting
